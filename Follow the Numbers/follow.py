@@ -83,7 +83,7 @@ def update():
     if timer <= 0:
         time_up()
 
-    if next_dot == dots.__len__():
+    if next_dot == len(dots):
         level += 1
         next_dot = 0
         place_dots()
